@@ -1,0 +1,56 @@
+<resources>
+  <string name="app_name">Pelayanan</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Android Studio</string>
+  <string name="nav_header_subtitle">android.studio@android.com</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="action_settings">Settings</string>
+  <string name="app_name_with_index">PDFReader (%1$d/%2$d)</string>
+
+  <string name="menu_home">Home</string>
+  <string name="menu_gallery">Surat Keterangan</string>
+  <string name="menu_slideshow">SOP Pelayanan</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="kantor_fragment">Kantor</string>
+  <string name="diri_fragment">Diri</string>
+  <string name="peraturan_kepala_badan_pertanahan_nasional">PERATURAN KEPALA BADAN PERTANAHAN NASIONAL</string>
+  <string name="republik_indonesia">REPUBLIK INDONESIA</string>
+  <string name="tentang">TENTANG</string>
+  <string name="standar_pelayanan_dan_pengaturan_pertanahan">STANDAR PELAYANAN DAN PENGATURAN PERTANAHAN</string>
+  <string name="kepala_badan_pertanahan_nasional_republik_indonesia">KEPALA BADAN PERTANAHAN NASIONAL REPUBLIK INDONESIA</string>
+  <string name="menimbang">Menimbang :</string>
+  <string name="a">a.</string>
+  <string name="bahwa_untuk_melaksanakan_undang_undang_nomor_25_tahun_2009_tentang_pelayanan_publik_dan_dalam_rangka_menyesuaikan_perkembangan_dan_tuntutan_kebutuhan_pelayanan_masyarakat_di_bidang_pertanahan_perlu_penyempurnaan_keputusan_kepala_badan_pertanahan_nasional_nomor_1_tahun_2005_tentang_standar_prosedur_operasi_pengaturan_dan_pelayanan_di_lingkugan_badan_pertanahan_nasional_jo_peraturan_kepala_badan_pertanahan_nasional_republik_indonesia_nomor_6_tahun_2008_tentang_penyederhanaan_dan_percepatan_standar_prosedur_operasi_pengaturan_dan_pelayanan_pertanahan_untuk_jenis_pelayanan_tertentu">bahwa untuk melaksanakan Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik dan dalam rangka menyesuaikan perkembangan dan tuntutan kebutuhan pelayanan masyarakat di bidang pertanahan perlu penyempurnaan Keputusan Kepala Badan Pertanahan Nasional Nomor 1 Tahun 2005 tentang Standar Prosedur Operasi. Pengaturan dan Pelayanan di Lingkugan Badan Pertanahan Nasional jo. Peraturan Kepala Badan Pertanahan Nasional Republik Indonesia Nomor 6 Tahun 2008 tentang Penyederhanaan dan Percepatan Standar Prosedur Operasi Pengaturan dan Pelayanan Pertanahan Untuk Jenis Pelayanan Tertentu;</string>
+  <string name="menimbangb">Menimbang :</string>
+  <string name="b">b.</string>
+  <string name="bahwa_berdasarkan_pertimbangan_sebagaimana_dimaksud_pada_huruf_a_perlu_ditetapkan_peraturan_kepala_badan_pertanahan_nasional_republik_indonesia_tentang_standar_pelayanan_dan_pengaturan_pertanahan">bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a perlu ditetapkan Peraturan Kepala Badan Pertanahan Nasional Republik Indonesia tentang Standar Pelayanan dan Pengaturan Pertanahan;</string>
+  <string name="menimbangc">Menimbang :</string>
+  <string name="mengingat">Mengingat :</string>
+  <string name="_1">1.</string>
+  <string name="undang_undang_nomor_5_tahun_1960_tentang_peraturan_dasar_pokok_pokok_agraria_lembaran_negara_republik_indonesia_tahun_1960_nomor_104_tambahan_lembaran_negara_republik_indonesia_nomor_2043">Undang-Undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria (Lembaran Negara Republik Indonesia Tahun 1960 Nomor 104, Tambahan Lembaran Negara Republik Indonesia Nomor 2043);</string>
+  <string name="_2">2.</string>
+  <string name="undang_undang_nomor_25_tahun_2009_tentang_pelayanan_publik_lembaran_negara_republik_indonesia_tahun_2009_nomor_112_tambahan_lembaran_negara_republik_indonesia_nomor_5038">Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 112, Tambahan Lembaran Negara Republik Indonesia Nomor 5038);</string>
+  <string name="_3">3.</string>
+  <string name="peraturan_presiden_nomor_10_tahun_2006_tentang_badan_pertanahan_nasional">Peraturan Presiden Nomor 10 Tahun 2006 tentang Badan Pertanahan Nasional;</string>
+  <string name="_4">4.</string>
+  <string name="peraturan_kepala_badan_pertanahan_nasional_republik_indonesia_nomor_3_tahun_2006_tentang_organisasi_dan_tata_kerja_badan_pertanahan_nasional_republik_indonesia">Peraturan Kepala Badan Pertanahan Nasional Republik Indonesia Nomor 3 Tahun 2006 tentang Organisasi dan Tata Kerja Badan Pertanahan Nasional Republik Indonesia;</string>
+  <string name="_5">5.</string>
+  <string name="peraturan_kepala_badan_pertanahan_nasional_republik_indonesia_nomor_4_tahun_2006_tentang_organisasi_dan_tata_kerja_kantor_wilayah_badan_pertanahan_nasional_dan_kantor_pertanahan">Peraturan Kepala Badan Pertanahan Nasional Republik Indonesia Nomor 4 Tahun 2006 tentang Organisasi dan Tata Kerja Kantor Wilayah Badan Pertanahan Nasional dan Kantor Pertanahan.</string>
+  <string name="_11">-1-</string>
+  <string name="memutuskan">MEMUTUSKAN: ...</string>
+  <string name="memutuskann">MEMUTUSKAN:</string>
+  <string name="menetapkan">Menetapkan:</string>
+  <string name="peraturan_kepala_badan_pertanahan_nasional_tentang_standar_pelayanan_dan_pengaturan_pertanahan">PERATURAN KEPALA BADAN PERTANAHAN NASIONAL TENTANG STANDAR PELAYANAN DAN PENGATURAN PERTANAHAN.</string>
+  <string name="bab_i">BAB I</string>
+  <string name="umum">UMUM</string>
+  <string name="pasal_1">Pasal 1</string>
+  <string name="menetapkana">Menetapkan:</string>
+  <string name="surat_keterangan">Surat Keterangan</string>
+  <string name="sop_pelayanan">SOP Pelayanan</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="identitas_diri">Identitas diri</string>
+  <string name="luas_letak_dan_penggunaan_tanah_yang_dimohon">Luas, letak dan penggunaan tanah yang dimohon</string>
+
+</resources>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/nodelapan"
+  android:layout_height="wrap_content"
+  android:background="@color/white"
+  android:scrollbars="vertical"
+  tools:context=".ui.slideshow.BAB6.NoEnamPuluhTujuhFragment">
+<FrameLayout
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginBottom="50dp"
+    android:layout_height="match_parent">
+
+    <TextView
+      android:id="@+id/subsub3"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="8dp"
+      android:textSize="17sp"
+      android:text="Pengelolaan Pengaduan"
+      android:textAlignment="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"/>
+    <RelativeLayout
+      android:id="@+id/relisibp2"
+      android:layout_below="@id/subsub3"
+      android:layout_marginStart="7dp"
+      android:layout_marginEnd="7dp"
+      android:layout_marginTop="15dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:id="@+id/dasargb"
+        android:layout_width="wrap_content"
+        android:text="Dasar Hukum : "
+        android:textSize="17sp"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"/>
+      <View
+        android:layout_toEndOf="@id/dasargb"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+      <RelativeLayout
+        android:layout_below="@id/dasargb"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/backgroundtext"
+        android:layout_height="wrap_content">
+        <TextView
+          android:id="@+id/isidasargb21"
+          android:text="@string/_1"
+          android:textSize="@dimen/textrecy"
+          android:layout_width="25dp"
+          android:layout_height="wrap_content"/>
+        <TextView
+          android:id="@+id/uugb21"
+          android:layout_toEndOf="@id/isidasargb21"
+          android:layout_width="match_parent"
+          android:text="UU No. 5/1960"
+          android:textSize="@dimen/textrecy"
+          android:layout_height="wrap_content"/>
+        <TextView
+          android:id="@+id/isidasargb22"
+          android:text="@string/_2"
+          android:layout_below="@id/uugb21"
+          android:layout_width="25dp"
+          android:layout_height="wrap_content"/>
+        <TextView
+          android:id="@+id/uugb22"
+          android:layout_below="@id/uugb21"
+          android:textSize="@dimen/textrecy"
+          android:layout_toEndOf="@id/isidasargb21"
+          android:layout_width="match_parent"
+          android:text="UU No. 25/2009"
+          android:layout_height="wrap_content"/>
+      </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+      android:id="@+id/persyaratangb"
+      android:layout_width="wrap_content"
+      android:text="Persyaratan : "
+      android:textSize="17sp"
+      android:layout_marginTop="15dp"
+      android:layout_below="@id/relisibp2"
+      android:layout_marginStart="10dp"
+      android:layout_height="wrap_content"/>
+    <View
+      android:layout_toEndOf="@id/persyaratangb"
+      android:layout_width="match_parent"
+      android:layout_marginTop="27dp"
+      android:layout_marginEnd="7dp"
+      android:layout_below="@id/relisibp2"
+      android:layout_marginStart="15dp"
+      android:layout_height="1dp"
+      android:background="@color/black"/>
+    <RelativeLayout
+      android:id="@+id/relpersyaratangb"
+      android:layout_below="@id/persyaratangb"
+      android:layout_width="match_parent"
+      android:layout_marginStart="7dp"
+      android:layout_marginEnd="7dp"
+      android:paddingTop="5dp"
+      android:paddingLeft="8dp"
+      android:paddingRight="8dp"
+      android:paddingBottom="5dp"
+      android:background="@drawable/backgroundtext"
+      android:layout_height="wrap_content">
+      <com.codesgood.views.JustifiedTextView
+        android:id="@+id/isisyaratgb1"
+        android:gravity="start|end"
+        android:justificationMode="inter_word"
+        tools:targetApi="o"
+        android:textSize="@dimen/textrecy"
+        android:layout_width="match_parent"
+        android:text="Formulir permohonan yang sudah diisi dan ditanda tangani pemohonn atau kuasanya diatas materai cukup"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/relbiayagb2"
+      android:layout_below="@id/relpersyaratangb"
+      android:layout_marginStart="7dp"
+      android:layout_marginEnd="7dp"
+      android:layout_marginTop="15dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:id="@+id/biayagb2"
+        android:layout_width="wrap_content"
+        android:text="Biaya : "
+        android:layout_marginStart="10dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"/>
+      <View
+        android:layout_toEndOf="@id/biayagb2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+      <RelativeLayout
+        android:layout_below="@id/biayagb2"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/backgroundtext"
+        android:layout_height="wrap_content">
+        <com.codesgood.views.JustifiedTextView
+          android:id="@+id/isibiayagb2"
+          android:gravity="start|end"
+          android:justificationMode="inter_word"
+          tools:targetApi="o"
+          android:textSize="@dimen/textrecy"
+          android:text="Rp. 0,-"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+      </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+      android:id="@+id/relwaktugb2"
+      android:layout_below="@id/relbiayagb2"
+      android:layout_marginStart="7dp"
+      android:layout_marginEnd="7dp"
+      android:layout_marginTop="15dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:id="@+id/waktugb2"
+        android:layout_width="wrap_content"
+        android:text="Waktu : "
+        android:layout_marginStart="10dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"/>
+      <View
+        android:layout_toEndOf="@id/waktugb2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+      <RelativeLayout
+        android:layout_below="@id/waktugb2"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/backgroundtext"
+        android:layout_height="wrap_content">
+        <com.codesgood.views.JustifiedTextView
+          android:id="@+id/isiwaktu1"
+          android:gravity="start|end"
+          android:justificationMode="inter_word"
+          tools:targetApi="o"
+          android:textSize="@dimen/textrecy"
+          android:text="5 (lima) hari"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+      </RelativeLayout>
+    </RelativeLayout>
+
+    <!--      disini keterangan-->
+    <RelativeLayout
+      android:id="@+id/relketerangangb"
+      android:layout_below="@id/relwaktugb2"
+      android:layout_marginStart="7dp"
+      android:layout_marginEnd="7dp"
+      android:layout_marginTop="15dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <TextView
+        android:id="@+id/ketgb"
+        android:layout_width="wrap_content"
+        android:text="Keterangan : "
+        android:layout_marginStart="10dp"
+        android:textSize="17sp"
+        android:layout_height="wrap_content"/>
+      <View
+        android:layout_toEndOf="@id/ketgb"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+      <RelativeLayout
+        android:layout_below="@id/ketgb"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/backgroundtext"
+        android:layout_height="wrap_content">
+        <com.codesgood.views.JustifiedTextView
+          android:id="@+id/isiketgb"
+          android:gravity="start|end"
+          android:justificationMode="inter_word"
+          tools:targetApi="o"
+          android:textSize="@dimen/textrecy"
+          android:text="Jika penyelesaian atas pengaduan membutuhkan waktu lebih dari 5 (lima) hari, maka unit kerja terkait berkewajiban memberikan tanggapan atau jawaban terhadap pengaduan yang disampaikan"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"/>
+      </RelativeLayout>
+    </RelativeLayout>
+
+    <GridLayout
+      android:layout_below="@id/relketerangangb"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:columnOrderPreserved="false"
+      android:alignmentMode="alignMargins"
+
+      android:rowCount="1"
+      android:columnCount="2">
+    <androidx.cardview.widget.CardView
+
+      android:id="@+id/btn_suratketerangan"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:cardElevation="0dp"
+      android:layout_columnWeight="1"
+      android:layout_rowWeight="1"
+      android:elevation="0dp"
+      >
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="Ditetapkan di Jkartabers"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+      android:layout_marginStart="0dp"
+      android:id="@+id/bottom"
+      android:layout_width="wrap_content"
+      android:elevation="0dp"
+      android:layout_marginTop="60dp"
+      app:cardElevation="0dp"
+      android:layout_height="wrap_content"
+      android:layout_columnWeight="1"
+      android:layout_marginEnd="7dp"
+
+      android:layout_rowWeight="1"
+      >
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+          android:id="@+id/siapaa"
+          android:text="KEPALA BADAN PERTANAHAN NASIONAL"
+          android:layout_width="match_parent"
+          android:textSize="11sp"
+          android:layout_marginTop="10dp"
+          android:layout_height="wrap_content"/>
+        <TextView
+          android:id="@+id/negaraa"
+
+          android:text="REPUBLIK INDONESIA"
+          android:layout_width="195dp"
+          android:textAlignment="center"
+          android:textSize="11sp"
+          android:paddingStart="0dp"
+          android:layout_marginTop="0dp"
+          android:layout_height="wrap_content"/>
+        <TextView
+          android:id="@+id/ttda"
+
+          android:text="JOYO WINOTO, Ph.D."
+          android:layout_width="195dp"
+          android:textAlignment="center"
+          android:textSize="11sp"
+          android:layout_marginBottom="100dp"
+          android:layout_marginTop="50dp"
+          android:layout_height="wrap_content"/>
+
+      </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </GridLayout>
+  </RelativeLayout>
+</FrameLayout>
+</ScrollView>

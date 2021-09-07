@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pelayanan.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+          android:id="@+id/action_nav_home_to_nav_profile"
+          app:destination="@id/nav_profile" />
+        <action
+          android:id="@+id/action_nav_home_to_nav_suratketerangan"
+          app:destination="@id/nav_suratketerangan" />
+        <action
+          android:id="@+id/action_nav_home_to_nav_infoapplication"
+          app:destination="@id/nav_infoapplication" />
+        <action
+          android:id="@+id/action_nav_home_to_nav_sop"
+          app:destination="@id/nav_sop" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_suratketerangan"
+        android:name="com.example.pelayanan.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_sop"
+        android:name="com.example.pelayanan.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" >
+        <action
+          android:id="@+id/action_nav_sop_to_nosatu"
+          app:destination="@id/nosatu" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.pelayanan.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment">
+        <action
+          android:id="@+id/action_nav_profile_to_kantor"
+          app:destination="@id/kantor" />
+        <action
+          android:id="@+id/action_nav_profile_to_diri"
+          app:destination="@id/diri" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_infoapplication"
+        android:name="com.example.pelayanan.ui.info.InfoFragment"
+        android:label="Info Application"
+        tools:layout="@layout/info_fragment"/>
+    <fragment
+      android:id="@+id/kantor"
+      android:name="com.example.pelayanan.ui.profile.kantor.KantorFragment"
+      android:label="Profile"
+      tools:layout="@layout/fragment_kantor"/>
+    <fragment
+      android:id="@+id/diri"
+      android:name="com.example.pelayanan.ui.profile.diri.DiriFragment"
+      android:label="Profile"
+      tools:layout="@layout/fragment_diri"/>
+    <fragment
+      android:id="@+id/nosatu"
+      android:name="com.example.pelayanan.ui.slideshow.BAB1.NoSatuFragment"
+      android:label="SOP Pelayanan"
+      tools:layout="@layout/fragment_no_satu"/>
+
+     <fragment
+      android:id="@+id/nodua"
+      android:name="com.example.pelayanan.ui.slideshow.BAB1.NoDuaFragment"
+      android:label="SOP Pelayanan"
+      tools:layout="@layout/fragment_no_dua"/>
+    <fragment
+      android:id="@+id/notiga"
+      android:name="com.example.pelayanan.ui.slideshow.BAB1.NoTigaFragment"
+      android:label="SOP Pelayanan"
+      tools:layout="@layout/fragment_no_tiga"/>
+    <fragment
+      android:id="@+id/noempat"
+      android:name="com.example.pelayanan.ui.slideshow.BAB1.NoEmpatFragment"
+      android:label="SOP Pelayanan"
+      tools:layout="@layout/fragment_no_empat"/>
+
+
+
+</navigation>

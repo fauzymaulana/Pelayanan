@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_suratketerangan"
+            android:icon="@drawable/ic_baseline_description_24"
+            android:title="Surat Keterangan" />
+        <item
+            android:id="@+id/nav_sop"
+            android:icon="@drawable/ic_baseline_settings_applications_24"
+            android:title="SOP Pelayanan" />
+
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profil"/>
+
+
+
+    </group>
+    <item android:title="Tentang Kami">
+        <menu>
+            <item android:id="@+id/nav_infoapplication"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="Info Aplikasi"/>
+
+<!--            <item android:id="@+id/nav_share"-->
+<!--                android:icon="@drawable/ic_baseline_share_24"-->
+<!--                android:title="Share"/>-->
+        </menu>
+    </item>
+</menu>

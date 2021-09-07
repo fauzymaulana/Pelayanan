@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/frag_gallery"
+    android:background="@color/white"
+    android:scrollbars="vertical"
+    android:fitsSystemWindows="true"
+    tools:targetApi="o"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lin1"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:visibility="invisible"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/baris1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="PERATURAN KEPALA BADAN PERTANAHAN NASIONAL"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/baris2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:text="REPUBLIK INDONESIA"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/baris3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:text="TENTANG"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/baris4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:text="STANDAR PELAYANAN DAN PENGATURAN PERTANAHAN"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+            <TextView
+                android:id="@+id/baris5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="8dp"
+                android:text="KEPALA BADAN PERTANAHAN NASIONAL REPUBLIK INDONESIA"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+            <RelativeLayout
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/menimbang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Menimbang : "
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/a"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_toEndOf="@+id/menimbang"
+                    android:text="a."
+                    android:textSize="11sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isia"
+                    android:layout_width="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_toEndOf="@+id/a"
+                    android:gravity="start|end"
+                    android:justificationMode="inter_word"
+                    android:text="bahwa untuk melaksanakan Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik dan dalam rangka menyesuaikan perkembangan dan tuntutan kebutuhan pelayanan masyarakat di bidang pertanahan perlu penyempurnaan Keputusan Kepala Badan Pertanahan Nasional Nomor 1 Tahun 2005 tentang Standar Prosedur Operasi. Pengaturan dan Pelayanan di Lingkugan Badan Pertanahan Nasional jo. Peraturan Kepala Badan Pertanahan Nasional Republik Indonesia Nomor 6 Tahun 2008 tentang Penyederhanaan dan Percepatan Standar Prosedur Operasi Pengaturan dan Pelayanan Pertanahan Untuk Jenis Pelayanan Tertentu;"
+                    android:textSize="11sp"
+                     />
+
+                <TextView
+                    android:id="@+id/menimbangb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="29dp"
+                    android:layout_below="@id/isia"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Menimbang : "
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/b"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isia"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="2dp"
+
+                    android:layout_toEndOf="@id/menimbangb"
+                    android:text="b."
+                    android:textSize="11sp" />
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isib"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/isia"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_toEndOf="@+id/b"
+                    android:gravity="start|end"
+                    android:justificationMode="inter_word"
+                    android:text="bahwa berdasarkan pertimbangan sebagaimana dimaksud pada huruf a perlu ditetapkan Peraturan Kepala Badan Pertanahan Nasional Republik Indonesia tentang Standar Pelayanan dan Pengaturan Pertanahan;"
+                    android:textSize="11sp"
+                    tools:targetApi="o"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/container2"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="29dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Menimbang : "
+                    android:textSize="11sp"
+                    android:visibility="invisible" />
+                <TextView
+                    android:id="@+id/mengingat"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mengingat : "
+                    android:layout_marginStart="7dp"
+                    android:layout_marginEnd="0dp"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/satu"
+                    android:layout_toEndOf="@id/m"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="1."
+                    android:textSize="11sp"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isisatu"
+                    android:layout_toEndOf="@+id/satu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Undang-Undang Nomor 5 Tahun 1960 tentang Peraturan Dasar Pokok-Pokok Agraria (Lembaran Negara Republik Indonesia Tahun 1960 Nomor 104, Tambahan Lembaran Negara Republik Indonesia Nomor 2043);"
+                    android:justificationMode="inter_word"
+                    android:layout_marginEnd="7dp"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/dua"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/m"
+                    android:layout_below="@id/isisatu"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="2."
+
+                    android:textSize="11sp"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isidua"
+                    android:layout_below="@id/isisatu"
+                    android:layout_toEndOf="@+id/dua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan     Publik (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 112, Tambahan Lembaran Negara Republik Indonesia Nomor 5038);"
+                    android:justificationMode="inter_word"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/tiga"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/m"
+                    android:layout_below="@id/isidua"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="3."
+                    android:textSize="11sp"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isitiga"
+                    android:layout_below="@id/isidua"
+                    android:layout_toEndOf="@+id/tiga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Peraturan Presiden Nomor 10 Tahun 2006 tentang Badan Pertanahan Nasional;"
+                    android:justificationMode="inter_word"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/empat"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/m"
+                    android:layout_below="@id/isitiga"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="4."
+
+                    android:textSize="11sp"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isiempat"
+                    android:layout_below="@id/isitiga"
+                    android:layout_toEndOf="@+id/dua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Peraturan Kepala Badan Pertanahan Nasional Republik   Indonesia Nomor 3 Tahun 2006 tentang Organisasi dan Tata   Kerja Badan Pertanahan Nasional Republik Indonesia;"
+                    android:justificationMode="inter_word"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/lima"
+                    android:layout_marginTop="2dp"
+                    android:layout_toEndOf="@id/m"
+                    android:layout_below="@id/isiempat"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="5."
+
+                    android:textSize="11sp"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isilima"
+                    android:layout_below="@id/isiempat"
+                    android:layout_toEndOf="@+id/dua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="Peraturan Kepala  Badan  Pertanahan  Nasional  Republik Indonesia Nomor  4  Tahun  2006 tentang Organisasi dan Tata Kerja Kantor Wilayah Badan Pertanahan Nasional dan Kantor Pertanahan."
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="2dp"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:textSize="11sp"/>
+
+                <TextView
+                    android:id="@+id/halaman1"
+                    android:textSize="11sp"
+                    android:text="-1-"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="7dp"
+                    android:textAlignment="center"
+                    android:layout_toStartOf="@id/next1"
+                    android:layout_toEndOf="@id/lima"
+                    android:layout_below="@id/isilima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/next1"
+                    android:layout_width="95dp"
+                    android:textAlignment="viewEnd"
+
+                    android:layout_below="@id/isilima"
+                    android:text="MEMUTUSKAN: ..."
+                    android:textSize="11sp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/baris1hal2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:text="MEMUTUSKAN:"
+                android:textAlignment="center"
+                android:textSize="11sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/baris2hal2"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Menetapkan:"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/iisimenetapkan"
+                    android:layout_marginTop="0dp"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:text="PERATURAN KEPALA BADAN PERTANAHAN NASIONAL TENTANG STANDAR PELAYANAN DAN PENGATURAN PERTANAHAN."
+                    android:layout_marginEnd="7dp"
+                    android:textSize="11sp"/>
+                <TextView
+                    android:id="@+id/bab1"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB I"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/iisimenetapkan"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/umum"
+                    android:layout_marginTop="0dp"
+                    android:text="UMUM"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab1"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal1"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 1"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/umum"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:id="@+id/isibab1"
+                    android:layout_below="@+id/pasal1"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/baris2hal"
+                        android:layout_width="65dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:text="Menetapkan:"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        android:visibility="invisible"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"/>
+                    <TextView
+                        android:id="@+id/noisipasal1a"
+                        android:text="(1)"
+                        android:textSize="11sp"
+                        android:layout_width="20dp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_height="wrap_content"/>
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal1a"
+                        android:textSize="11sp"
+                        android:text="Standar Pelayanan dan Pengaturan Pertanahan merupakan pedoman dalam pelaksanaan layanan pertanahan di lingkungan Badan Pertanahan Nasional Republik Indonesia."
+                        android:layout_toEndOf="@id/noisipasal1a"
+                        android:justificationMode="inter_word"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_marginEnd="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/noisipasal1b"
+                        android:text="(2)"
+
+                        android:layout_below="@id/isipasal1a"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_marginTop="2dp"
+                        android:textSize="11sp"
+                        android:layout_width="20dp"
+
+                        android:layout_height="wrap_content"/>
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal1b"
+                        android:textSize="11sp"
+                        android:layout_marginTop="2dp"
+                        android:text="Standar Pelayanan dan Pengaturan Pertanahan sebagaimana dimaksud pada ayat (1) dituangkan dalam Lampiran dan merupakan satu kesatuan yang tidak terpisahkan dari Peraturan ini."
+                        android:layout_toEndOf="@id/noisipasal1b"
+                        android:layout_below="@id/isipasal1a"
+                        android:justificationMode="inter_word"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_marginEnd="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+
+                    <TextView
+                        android:id="@+id/pasal2"
+                        android:layout_marginTop="6dp"
+                        android:text="Pasal 2"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_below="@id/isipasal1b"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="7dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal2"
+                        android:layout_marginTop="4dp"
+                        android:text="Standar Pelayanan dan Pengaturan Pertanahan dilaksanakan oleh Badan Pertanahan Nasional Republik Indonesia, Kantor Wilayah Badan Pertanahan Nasional dan Kantor Pertanahan."
+                        android:textSize="11sp"
+                        android:justificationMode="inter_word"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_below="@id/pasal2"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="7dp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/pasal3"
+                        android:layout_marginTop="6dp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:text="Pasal 3"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+
+                        android:layout_below="@id/isipasal2"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="7dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal3"
+                        android:layout_marginTop="4dp"
+                        android:text="Tujuan peraturan ini adalah untuk mewujudkan kepastian hukum, keterbukaan dan akuntabilitas pelayanan publik."
+                        android:textSize="11sp"
+                        android:justificationMode="inter_word"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_below="@id/pasal3"
+                        android:layout_width="match_parent"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_marginEnd="7dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/pasal4"
+                        android:layout_marginTop="6dp"
+                        android:text="Pasal 4"
+                        android:textAlignment="center"
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_below="@id/isipasal3"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="7dp"
+                        android:layout_height="wrap_content"/>
+
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal4"
+                        android:layout_marginTop="4dp"
+                        android:text="Ruang lingkup pengaturan peraturan ini meliputi:"
+                        android:textSize="11sp"
+                        android:justificationMode="inter_word"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_below="@id/pasal4"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_width="match_parent"
+                        android:layout_marginEnd="7dp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/pasal4a"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="a."
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4" />
+                    <TextView
+                        android:id="@+id/isipasal4a"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal4a"
+                        android:layout_marginEnd="7dp"
+                        android:text="kelompok dan jenis pelayanan;"/>
+
+                    <TextView
+                        android:id="@+id/pasal4b"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="b."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_below="@id/isipasal4a"
+                        />
+                    <TextView
+                        android:id="@+id/isipasal4b"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal4b"
+                        android:layout_marginEnd="7dp"
+                        android:text="persyaratan;"/>
+
+                    <TextView
+                        android:id="@+id/pasal4c"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="c."
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4b"
+                        />
+                    <TextView
+                        android:id="@+id/isipasal4c"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal4c"
+                        android:layout_marginEnd="7dp"
+                        android:text="biaya;"/>
+
+                    <TextView
+                        android:id="@+id/pasal4d"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="d."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_below="@id/isipasal4c"
+                        />
+                    <TextView
+                        android:id="@+id/isipasal4d"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal4d"
+                        android:layout_marginEnd="7dp"
+                        android:text="waktu;"/>
+
+                    <TextView
+                        android:id="@+id/pasal4e"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="e."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:layout_below="@id/isipasal4d"
+                        />
+                    <TextView
+                        android:id="@+id/isipasal4e"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal4e"
+                        android:layout_marginEnd="7dp"
+                        android:text="prosedur; dan"/>
+
+                    <TextView
+                        android:id="@+id/pasal4f"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="f."
+                        android:layout_toEndOf="@id/baris2hal"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4e"
+                        />
+                    <TextView
+                        android:id="@+id/isipasal4f"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal4e"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal4f"
+                        android:layout_marginEnd="7dp"
+                        android:text="pelaporan;"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/bab2"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB II"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isibab1"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab2"
+                    android:layout_marginTop="0dp"
+                    android:text="KELOMPOK DAN JENIS PELAYANAN"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab2"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal5"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 5"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab2"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <RelativeLayout
+                    android:id="@+id/isipasal5"
+                    android:layout_below="@id/pasal5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/baris2hal2"
+                    android:layout_marginTop="4dp"
+                    >
+                    <TextView
+                        android:id="@+id/noisipasal5a"
+                        android:text="(1)"
+
+                        android:textSize="11sp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"/>
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal5a"
+                        android:textSize="11sp"
+                        android:text="Kelompok pelayanan sebagaimana dimaksud pada  Pasal  4 huruf a terdiri dari pelayanan:"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:justificationMode="inter_word"
+                        android:gravity="left|end"
+                        android:layout_marginEnd="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/pasal51a"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="a."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:layout_below="@id/isipasal5a"
+                        />
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal51a"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal5a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal51a"
+                        android:layout_marginEnd="7dp"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_marginTop="2dp"
+                        android:text="Pendaftaran Tanah Pertama Kali;"/>
+                    <TextView
+                        android:id="@+id/pasal51b"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="b."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:layout_below="@id/isipasal51a"
+                        />
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal51b"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal51a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal51b"
+                        android:layout_marginEnd="7dp"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:text="Pemeliharaan Data Pendaftaran Tanah;"/>
+                    <TextView
+                        android:id="@+id/pasal51c"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="c."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:layout_below="@id/isipasal51b"
+                        />
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal51c"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal51b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal51c"
+                        android:layout_marginEnd="7dp"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:text="Pencatatan dan Informasi Pertanahan;"/>
+                    <TextView
+                        android:id="@+id/pasal51d"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="d."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:layout_below="@id/isipasal51c"
+                        />
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal51d"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal51c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal51d"
+                        android:layout_marginEnd="7dp"
+                        android:text="Pengukuran Bidang Tanah;"/>
+                    <TextView
+                        android:id="@+id/pasal51e"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="e."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:layout_below="@id/isipasal51d"
+                        />
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal51e"
+                        android:textSize="11sp"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_below="@id/isipasal51d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal51e"
+                        android:layout_marginEnd="7dp"
+                        android:text="Pengaturan dan Penataan Pertanahan; dan"/>
+                    <TextView
+                        android:id="@+id/pasal51f"
+                        android:layout_width="15dp"
+                        android:layout_height="wrap_content"
+                        android:text="f."
+                        android:textSize="11sp"
+                        android:layout_toEndOf="@id/noisipasal5a"
+                        android:layout_below="@id/isipasal51e"
+                        />
+                    <TextView
+                        android:id="@+id/isipasal51f"
+                        android:textSize="11sp"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_below="@id/isipasal51e"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/pasal51f"
+                        android:layout_marginEnd="7dp"
+                        android:text="Pengelolaan Pengaduan."/>
+                    <TextView
+                        android:id="@+id/halaman2"
+                        android:textSize="11sp"
+                        android:text="-2-"
+
+                        android:layout_marginTop="15dp"
+                        android:layout_marginStart="7dp"
+                        android:textAlignment="center"
+                        android:layout_toStartOf="@id/next2"
+                        android:layout_toEndOf="@id/pasal51f"
+                        android:layout_below="@id/isipasal51f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/next2"
+                        android:layout_width="95dp"
+                        android:textAlignment="viewEnd"
+                        android:layout_below="@id/isipasal51f"
+                        android:text="(2) Jenis ..."
+                        android:textSize="11sp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_height="wrap_content"
+                        />
+                    <TextView
+                        android:id="@+id/noisipasal52"
+                        android:text="(2)"
+
+                        android:textSize="11sp"
+                        android:layout_marginTop="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="20dp"
+                        android:layout_below="@id/next2"
+                        android:layout_height="wrap_content"/>
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal52"
+                        android:textSize="11sp"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_below="@id/next2"
+                        android:text="Jenis pelayanan yang merupakan rincian dari kelompok pelayanan sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran 1 peraturan ini."
+                        android:layout_toEndOf="@id/noisipasal52"
+                        android:justificationMode="inter_word"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/noisipasal53"
+                        android:text="(3)"
+
+                        android:textSize="11sp"
+                        android:layout_marginTop="2dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="20dp"
+                        android:layout_below="@id/isipasal52"
+                        android:layout_height="wrap_content"/>
+                    <com.codesgood.views.JustifiedTextView
+                        android:id="@+id/isipasal53"
+                        android:textSize="11sp"
+                        android:layout_below="@id/isipasal52"
+                        android:text="Dasar Hukum, Persyaratan, Biaya, dan Waktu masing-masing jenis pelayanan sebagaimana dimaksud pada ayat (2) tercantum dalam Lampiran II, sedangkan Bagan Alir tercantum dalam Lampiran III peraturan ini."
+                        android:layout_toEndOf="@id/noisipasal52"
+                        android:justificationMode="inter_word"
+                        android:gravity="start|end"
+                        tools:targetApi="o"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginEnd="7dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/baris2ha"
+                    android:layout_below="@id/isipasal5"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Menetapkan:"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_alignParentLeft="true"
+                    android:visibility="invisible"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"/>
+                <TextView
+                    android:id="@+id/bab3"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB III"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal5"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab3"
+                    android:layout_marginTop="0dp"
+                    android:text="PERSYARATAN"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab3"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal6"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 6"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab3"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal61"
+                    android:layout_below="@id/pasal6"
+                    android:text="(1)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal61"
+                    android:textSize="11sp"
+                    android:layout_below="@id/pasal6"
+                    android:text="Persyaratan pelayanan sebagaimana dimaksud dalam Pasal 4 huruf b adalah persyaratan yang harus dipenuhi oleh pemohon agar permohonannya dapat diproses lebih lanjut."
+                    android:layout_toEndOf="@id/nopasal61"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal62"
+                    android:layout_below="@id/isipasal61"
+                    android:text="(2)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal62"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal61"
+                    android:text="Persyaratan dimaksud pada ayat (1) adalah berupa dokumen pertanahan dan dokumen yang berkaitan dengan pertanahan sebagaimana tercantum dalam Lampiran II peraturan ini."
+                    android:layout_toEndOf="@id/nopasal62"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal63"
+                    android:layout_below="@id/isipasal62"
+                    android:text="(3)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal63"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal62"
+                    android:text="Apabila persyaratan dimaksud pada ayat (2) tidak lengkap maka Kantor Pertanahan, Kantor Wilayah Badan Pertanahan Nasional menolak berkas permohonan."
+                    android:layout_toEndOf="@id/nopasal63"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal64"
+                    android:layout_below="@id/isipasal63"
+                    android:text="(4)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal64"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal63"
+                    android:text="Penolakan dimaksud pada ayat (3) dilaksanakan oleh Kepala Kantor Pertanahan, Kepala Kantor Wilayah Badan Pertanahan Nasional atau petugas yang ditunjuk."
+                    android:layout_toEndOf="@id/nopasal64"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/bab4"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB IV"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal64"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab4"
+                    android:layout_marginTop="0dp"
+                    android:text="BIAYA"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab4"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal7"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 7"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab4"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal7"
+                    android:layout_marginTop="4dp"
+                    android:text="Biaya sebagaimana dimaksud dalam Pasal 4 huruf c adalah biaya pelayanan yang diwajibkan kepada pemohon sesuai dengan peraturan perundang-undangan tentang jenis dan tarif atas jenis penerimaan negara bukan pajak yang berlaku pada Badan Pertanahan Nasional Republik Indonesia."
+                    android:textSize="11sp"
+                    android:justificationMode="inter_word"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_below="@id/pasal7"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/bab5"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB V"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal7"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab5"
+                    android:layout_marginTop="0dp"
+                    android:text="WAKTU"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab5"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal8"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 8"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab5"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/nopasal81"
+                    android:layout_below="@id/pasal8"
+                    android:text="(1)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal81"
+                    android:textSize="11sp"
+                    android:layout_below="@id/pasal8"
+                    android:text="Waktu sebagaimana dimaksud dalam Pasal 4 huruf d adalah jangka waktu penyelesaian pelayanan pertanahan terhitung sejak penerimaan berkas lengkap dan telah lunas pembayaran biaya yang ditetapkan."
+                    android:layout_toEndOf="@id/nopasal81"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal82"
+                    android:layout_below="@id/isipasal81"
+                    android:text="(2)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal82"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal81"
+                    android:text="Jangka waktu sebagaimana dimaksud pada ayat (1) adalah jangka waktu yang paling lama untuk penyelesaian masing-masing jenis pelayanan pertanahan yang dihitung berdasar hari kerja."
+                    android:layout_toEndOf="@id/nopasal82"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/nopasal83"
+                    android:layout_below="@id/isipasal82"
+                    android:text="(3)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal83"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal82"
+                    android:text="Untuk pelaksanaan pelayanan lebih dari satu jenis pelayanan, jangka waktu adalah penjumlahan secara kumulatif waktu yang diperlukan untuk masing-masing jenis pelayanan."
+                    android:layout_toEndOf="@id/nopasal83"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/halaman3"
+                    android:textSize="11sp"
+                    android:text="-3-"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="7dp"
+                    android:textAlignment="center"
+                    android:layout_toStartOf="@id/next3"
+                    android:layout_toEndOf="@id/nopasal83"
+                    android:layout_below="@id/isipasal83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/next3"
+                    android:layout_width="95dp"
+                    android:textAlignment="viewEnd"
+                    android:layout_below="@id/isipasal83"
+                    android:text="(4) Jangka ..."
+                    android:textSize="11sp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/nopasal84"
+                    android:layout_below="@id/next3"
+                    android:text="(4)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="30dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal84"
+                    android:textSize="11sp"
+                    android:layout_below="@id/next3"
+                    android:text="Jangka waktu sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran peraturan ini."
+                    android:layout_toEndOf="@id/nopasal84"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal85"
+                    android:layout_below="@id/isipasal84"
+                    android:text="(5)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal85"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal84"
+                    android:text="Jangka waktu sebagaimana dimaksud pada ayat (4) tidak berlaku bagi permohonan pelayanan pertanahan yang didalam prosesnya diketahui terdapat sengketa, konflik, perkara, atau masalah hukum lainnya dan berkasnya dapat dikembalikan kepada pemohon."
+                    android:layout_toEndOf="@id/nopasal85"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal86"
+                    android:layout_below="@id/isipasal85"
+                    android:text="(6)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal86"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal85"
+                    android:text="Proses penyelesaian layanan sebagaimana dimaksud pada ayat (5) diselesaikan sesuai dengan ketentuan peraturan perundang-undangan."
+                    android:layout_toEndOf="@id/nopasal86"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--BAB VI-->
+                <TextView
+                    android:id="@+id/bab6"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB VI"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal86"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab6"
+                    android:layout_marginTop="0dp"
+                    android:text="PROSEDUR"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab6"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal9"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 9"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab6"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal9"
+                    android:layout_below="@id/pasal9"
+                    android:text="Prosedur sebagaimana dimaksud dalam Pasal 4 uruf e adalah tahapan proses pelayanan untuk masing-masing jenis kegiatan sebagaimana bagan alir yang tercantum dalam Lampiran III peraturan ini."
+                    android:textSize="11sp"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--            Bab 7-->
+                <TextView
+                    android:id="@+id/bab7"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB VII"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal9"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab7"
+                    android:layout_marginTop="0dp"
+                    android:text="PELAPORAN"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab7"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal10"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 10"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab7"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/nopasal101"
+                    android:layout_below="@id/pasal10"
+                    android:text="(1)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal101"
+                    android:textSize="11sp"
+                    android:layout_below="@id/pasal10"
+                    android:text="Kepala Kantor Pertanahan setiap bulan melaporkan hasil pelaksanaan pelayanan kepada Kepala Kantor Wialayah Badan Pertanahan Nasional."
+                    android:layout_toEndOf="@id/nopasal101"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal102"
+                    android:layout_below="@id/isipasal101"
+                    android:text="(2)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal102"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal101"
+                    android:text="Kepala Kantor Wilayah Badan Pertanahan Nasional setiap bulan melaporkan hasil pelaksanaan pelayanan yang menjadi tugasnya dan pelaksanaan pelayanan sebagaimana dimaksud pada ayat (1) kepada Kepala Nadan Pertanahan Nasional Republik Indonesia."
+                    android:layout_toEndOf="@id/nopasal102"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--            Bab 8-->
+                <TextView
+                    android:id="@+id/bab8"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB VIII"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal102"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab8"
+                    android:layout_marginTop="0dp"
+                    android:text="LAIN-LAIN"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab8"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal11"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 11"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab8"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/nopasal111"
+                    android:layout_below="@id/pasal11"
+                    android:text="(1)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="4dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal111"
+                    android:textSize="11sp"
+                    android:layout_below="@id/pasal11"
+                    android:text="Untuk kelancaran peaksanaan pelayanan Kepala Kantor Pertanahan dan Kepala Kantor Wilayah Badan Pertanahan Nasional masing-masing menunjuk koordinator dan petugas loket pelayanan yang mempunyai kecakapan dan kemampuan sesuai dengan kebutuhan pelayanan."
+                    android:layout_toEndOf="@id/nopasal101"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal112"
+                    android:layout_below="@id/isipasal111"
+                    android:text="(2)"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal112"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal111"
+                    android:text="Koordinator dan/atau petugas sebagaimana dimaksud pada ayat (1) ditetapkan secara periodik oleh Kepala Kantor Pertanahan atau Kepala Kantor Wilayah Badan Pertanahan Nasional paling lama 2 (dua) tahun."
+                    android:layout_toEndOf="@id/nopasal112"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/halaman4"
+                    android:textSize="11sp"
+                    android:text="-4-"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="7dp"
+                    android:textAlignment="center"
+                    android:layout_toStartOf="@id/next4"
+                    android:layout_toEndOf="@id/nopasal112"
+                    android:layout_below="@id/isipasal112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/next4"
+                    android:layout_width="95dp"
+                    android:textAlignment="viewEnd"
+
+                    android:layout_below="@id/isipasal112"
+                    android:text="Pasal 12 ..."
+                    android:textSize="11sp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/pasal12"
+                    android:layout_marginTop="30dp"
+                    android:text="Pasal 12"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/next4"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal12"
+                    android:layout_below="@id/pasal12"
+                    android:text="Pelayanan yang belum diatur dalam peraturan ini dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku."
+                    android:textSize="11sp"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--            Bab IX-->
+                <TextView
+                    android:id="@+id/bab9"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB IX"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal12"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab9"
+                    android:layout_marginTop="0dp"
+                    android:text="KETENTUAN PERALIHAN"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab9"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal13"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 13"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab9"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal13"
+                    android:layout_below="@id/pasal13"
+                    android:text="Pada saat berlakunya peraturan ini, permohonan pelayanan pertanahan  yang  telah  diterima  lengkap, dilaksanakan sesuai dengan ketentuan yang berlaku sebelum ditetapkannya peraturan ini."
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <!--            Bab X-->
+                <TextView
+                    android:id="@+id/bab10"
+                    android:layout_marginTop="8dp"
+                    android:text="BAB X"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/isipasal13"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/subtitlebab10"
+                    android:layout_marginTop="0dp"
+                    android:text="KETENTUAN PENUTUP"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/bab10"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal14"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 14"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@+id/subtitlebab10"
+                    android:layout_toEndOf="@+id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal14"
+                    android:layout_below="@id/pasal14"
+                    android:text="Pada saat peraturan ini dimulai berlaku, maka:"
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="4dp"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal141"
+                    android:layout_below="@id/isipasal14"
+                    android:text="1."
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="0dp"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal141"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal14"
+                    android:text="Keputusan Kepala Badan Pertanahan Nasional Nomor 1 Tahun 2005 tentang Standar Prosedur Operasi Pengaturan dan Pelayanan di Lingkungan Badan Pertanahan Nasional; dan"
+                    android:layout_toEndOf="@id/nopasal141"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nopasal142"
+                    android:layout_below="@id/isipasal141"
+                    android:text="2."
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+
+                    android:layout_marginTop="0dp"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"/>
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal142"
+                    android:textSize="11sp"
+                    android:layout_below="@id/isipasal141"
+                    android:text="Peraturan  Kepala  Badan Pertanahan Nasional Republik Indonesia Nomor 6 Tahun 2008 tentang Penyederhanaan dan Percepatan Standar Prosedur Operasi Pengaturan dan Pelayanan Pertanahan Untuk Jenis Pelayanan Tertentu;"
+                    android:layout_toEndOf="@id/nopasal142"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/ket"
+                    android:layout_below="@id/isipasal142"
+                    android:text="dicabut dan dinyatakan tidak berlaku lagi."
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2hal2"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/pasal15"
+                    android:layout_marginTop="6dp"
+                    android:text="Pasal 15"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_below="@id/ket"
+                    android:layout_toEndOf="@id/baris2ha"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.codesgood.views.JustifiedTextView
+                    android:id="@+id/isipasal15"
+                    android:layout_marginTop="4dp"
+                    android:text="Peraturan ini mulai berlaku sejak tanggal ditetapkan dengan tenggang waktu penyesuaian paling lama 9 (sembilan) bulan."
+                    android:textSize="11sp"
+                    android:layout_toEndOf="@id/baris2ha"
+                    android:justificationMode="inter_word"
+                    android:gravity="start|end"
+                    tools:targetApi="o"
+                    android:layout_below="@id/pasal15"
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="7dp"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+                <RelativeLayout
+                    android:layout_marginTop="35dp"
+                    android:id="@+id/relkosong1"
+                    android:layout_below="@id/isipasal15"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_height="wrap_content">
+                    <GridLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:columnOrderPreserved="false"
+                        android:alignmentMode="alignMargins"
+
+                        android:rowCount="1"
+                        android:columnCount="2">
+
+                        <androidx.cardview.widget.CardView
+
+                            android:id="@+id/btn_suratketerangan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:cardElevation="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:elevation="0dp"
+                            >
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="invisible"
+                                android:text="Ditetapkan di Jkartabers"/>
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_marginStart="0dp"
+                            android:id="@+id/bottom"
+                            android:layout_width="wrap_content"
+                            android:elevation="0dp"
+                            app:cardElevation="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_marginEnd="7dp"
+
+                            android:layout_rowWeight="1"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/kota"
+                                    android:text="Ditetapkan di Jakarta,"
+                                    android:layout_width="match_parent"
+                                    android:textAlignment="viewStart"
+                                    android:textSize="11sp"
+
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/tanggal"
+                                    android:text="pada tanggal 25 Januari 2010"
+                                    android:layout_width="match_parent"
+                                    android:textSize="11sp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/siapa"
+
+                                    android:text="KEPALA BADAN PERTANAHAN NASIONAL"
+                                    android:layout_width="match_parent"
+
+
+                                    android:textSize="11sp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/negara"
+
+                                    android:text="REPUBLIK INDONESIA"
+                                    android:layout_width="195dp"
+                                    android:textAlignment="center"
+                                    android:textSize="11sp"
+                                    android:paddingStart="0dp"
+                                    android:layout_marginTop="0dp"
+                                    android:layout_height="wrap_content"/>
+                                <TextView
+                                    android:id="@+id/ttd"
+
+                                    android:text="JOYO WINOTO, Ph.D."
+                                    android:layout_width="195dp"
+                                    android:textAlignment="center"
+                                    android:textSize="11sp"
+                                    android:layout_marginBottom="100dp"
+                                    android:layout_marginTop="50dp"
+                                    android:layout_height="wrap_content"/>
+
+                            </LinearLayout>
+
+                        </androidx.cardview.widget.CardView>
+                    </GridLayout>
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <!--        <com.google.android.material.navigation.NavigationView-->
+        <!--            android:id="@+id/nav_view"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            app:layout_anchorGravity="bottom|right|end"-->
+        <!--            app:layout_anchor="@id/lin1"-->
+        <!--            app:srcCompat="@drawable/ic_baseline_arrow_upward_24"-->
+        <!--            android:fitsSystemWindows="true"/>-->
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</ScrollView>
